@@ -11,6 +11,7 @@ class LivePresentationRechargeCell: UICollectionViewCell {
     @IBOutlet weak var liveNumber: UILabel!
     @IBOutlet weak var chiduCoin: UILabel!
     @IBOutlet weak var selectedView: UIView!
+    @IBOutlet weak var markUp: UILabel!
     
     var itemSelected: Bool = false {
         didSet {
@@ -24,6 +25,12 @@ class LivePresentationRechargeCell: UICollectionViewCell {
         }
     }
     
+    public var isFirst: Bool = false {
+        didSet {
+            markUp.isHidden = !isFirst
+        }
+    }
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -31,6 +38,8 @@ class LivePresentationRechargeCell: UICollectionViewCell {
         selectedView.layer.cornerRadius = 10
         liveNumber.textColor = .app_main_title
         chiduCoin.textColor = .app_main_content
+        markUp.textColor = .app_main_red
+        markUp.text = "+100%"
     }
     
     func buildUI(live: Int, coin: Int) {

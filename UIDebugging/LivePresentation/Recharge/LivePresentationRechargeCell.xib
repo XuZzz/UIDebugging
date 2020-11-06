@@ -38,15 +38,23 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="De2-t3-Uem">
+                                <rect key="frame" x="102" y="15" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemGray4Color"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="YD9-kh-wsX" secondAttribute="trailing" constant="10" id="18G-Ny-ZSH"/>
                             <constraint firstItem="YD9-kh-wsX" firstAttribute="centerY" secondItem="gg4-Cf-Hqv" secondAttribute="centerY" constant="-11" id="AZ3-IM-7YW"/>
                             <constraint firstItem="aYF-ot-nae" firstAttribute="leading" secondItem="gg4-Cf-Hqv" secondAttribute="leading" constant="10" id="D5V-yG-mkH"/>
+                            <constraint firstAttribute="trailing" secondItem="De2-t3-Uem" secondAttribute="trailing" constant="8" id="G1O-Mm-Amy"/>
                             <constraint firstAttribute="trailing" secondItem="aYF-ot-nae" secondAttribute="trailing" constant="10" id="NwJ-b1-tiX"/>
                             <constraint firstItem="aYF-ot-nae" firstAttribute="top" secondItem="YD9-kh-wsX" secondAttribute="bottom" constant="10" id="ThP-Vn-LLY"/>
                             <constraint firstItem="YD9-kh-wsX" firstAttribute="centerX" secondItem="gg4-Cf-Hqv" secondAttribute="centerX" id="ZHx-3O-tPP"/>
+                            <constraint firstItem="YD9-kh-wsX" firstAttribute="top" secondItem="De2-t3-Uem" secondAttribute="bottom" constant="-2" id="ci2-FT-T8i"/>
                             <constraint firstItem="YD9-kh-wsX" firstAttribute="leading" secondItem="gg4-Cf-Hqv" secondAttribute="leading" constant="10" id="ony-E1-bKg"/>
                             <constraint firstItem="aYF-ot-nae" firstAttribute="centerX" secondItem="YD9-kh-wsX" secondAttribute="centerX" id="vYt-rk-aR0"/>
                         </constraints>
@@ -63,6 +71,7 @@
             <connections>
                 <outlet property="chiduCoin" destination="aYF-ot-nae" id="gmT-a0-yrp"/>
                 <outlet property="liveNumber" destination="YD9-kh-wsX" id="abd-Vb-L6c"/>
+                <outlet property="markUp" destination="De2-t3-Uem" id="Hym-UD-7LL"/>
                 <outlet property="selectedView" destination="gg4-Cf-Hqv" id="l4W-aE-t3P"/>
             </connections>
             <point key="canvasLocation" x="140.57971014492756" y="133.92857142857142"/>

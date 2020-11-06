@@ -23,7 +23,7 @@ class LivePresentationOnlineCell: UITableViewCell {
         
         userName.text = "一夜暴富"
         headImage.backgroundColor = .gray
-        tickets.text = "0票"
+        tickets.text = "9527票"
     }
     
     func buildUI() {

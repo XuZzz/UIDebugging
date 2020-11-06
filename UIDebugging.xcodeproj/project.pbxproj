@@ -16,6 +16,10 @@
 		950FDF67255419A200FA9C4D /* LivePresentationOnlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950FDF66255419A200FA9C4D /* LivePresentationOnlineView.swift */; };
 		950FDF6C25541DB800FA9C4D /* LivePresentationOnlineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950FDF6A25541DB800FA9C4D /* LivePresentationOnlineCell.swift */; };
 		950FDF6D25541DB800FA9C4D /* LivePresentationOnlineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 950FDF6B25541DB800FA9C4D /* LivePresentationOnlineCell.xib */; };
+		950FDF7B2554E06100FA9C4D /* LivePresentationShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950FDF7A2554E06000FA9C4D /* LivePresentationShopView.swift */; };
+		950FDF852555490000FA9C4D /* LivePresentationShopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950FDF832555490000FA9C4D /* LivePresentationShopCell.swift */; };
+		950FDF862555490000FA9C4D /* LivePresentationShopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 950FDF842555490000FA9C4D /* LivePresentationShopCell.xib */; };
+		950FDF8A25554D6C00FA9C4D /* LivePresentationRewardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950FDF8925554D6C00FA9C4D /* LivePresentationRewardView.swift */; };
 		954675572546957800E7826F /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 954675562546957800E7826F /* View.xib */; };
 		954675892549362400E7826F /* UserInfoStackView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 954675882549362000E7826F /* UserInfoStackView.xib */; };
 		9546758C2549427400E7826F /* UserInfoStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9546758B2549427400E7826F /* UserInfoStackView.swift */; };
@@ -52,6 +56,10 @@
 		950FDF66255419A200FA9C4D /* LivePresentationOnlineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivePresentationOnlineView.swift; sourceTree = "<group>"; };
 		950FDF6A25541DB800FA9C4D /* LivePresentationOnlineCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivePresentationOnlineCell.swift; sourceTree = "<group>"; };
 		950FDF6B25541DB800FA9C4D /* LivePresentationOnlineCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LivePresentationOnlineCell.xib; sourceTree = "<group>"; };
+		950FDF7A2554E06000FA9C4D /* LivePresentationShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivePresentationShopView.swift; sourceTree = "<group>"; };
+		950FDF832555490000FA9C4D /* LivePresentationShopCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivePresentationShopCell.swift; sourceTree = "<group>"; };
+		950FDF842555490000FA9C4D /* LivePresentationShopCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LivePresentationShopCell.xib; sourceTree = "<group>"; };
+		950FDF8925554D6C00FA9C4D /* LivePresentationRewardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivePresentationRewardView.swift; sourceTree = "<group>"; };
 		954675562546957800E7826F /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 		954675882549362000E7826F /* UserInfoStackView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserInfoStackView.xib; sourceTree = "<group>"; };
 		9546758B2549427400E7826F /* UserInfoStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoStackView.swift; sourceTree = "<group>"; };
@@ -111,6 +119,52 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		950FDF722554DF5C00FA9C4D /* Online */ = {
+			isa = PBXGroup;
+			children = (
+				950FDF66255419A200FA9C4D /* LivePresentationOnlineView.swift */,
+				950FDF6A25541DB800FA9C4D /* LivePresentationOnlineCell.swift */,
+				950FDF6B25541DB800FA9C4D /* LivePresentationOnlineCell.xib */,
+			);
+			path = Online;
+			sourceTree = "<group>";
+		};
+		950FDF752554DF8500FA9C4D /* User */ = {
+			isa = PBXGroup;
+			children = (
+				950FDF562553D12800FA9C4D /* LivePresentationUserView.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		950FDF772554DFC100FA9C4D /* Recharge */ = {
+			isa = PBXGroup;
+			children = (
+				950FDF592553D1BF00FA9C4D /* LivePresentationRechargeView.swift */,
+				950FDF5D2553EC5C00FA9C4D /* LivePresentationRechargeCell.swift */,
+				950FDF5E2553EC5C00FA9C4D /* LivePresentationRechargeCell.xib */,
+			);
+			path = Recharge;
+			sourceTree = "<group>";
+		};
+		950FDF792554E04D00FA9C4D /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				950FDF7A2554E06000FA9C4D /* LivePresentationShopView.swift */,
+				950FDF832555490000FA9C4D /* LivePresentationShopCell.swift */,
+				950FDF842555490000FA9C4D /* LivePresentationShopCell.xib */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		950FDF8825554D5900FA9C4D /* Reward */ = {
+			isa = PBXGroup;
+			children = (
+				950FDF8925554D6C00FA9C4D /* LivePresentationRewardView.swift */,
+			);
+			path = Reward;
+			sourceTree = "<group>";
+		};
 		95C5608725412DCF00E42975 = {
 			isa = PBXGroup;
 			children = (
@@ -132,7 +186,7 @@
 		95C5609225412DCF00E42975 /* UIDebugging */ = {
 			isa = PBXGroup;
 			children = (
-				95D35EAB25526DCA0090CBCA /* Live */,
+				95D35EAB25526DCA0090CBCA /* LivePresentation */,
 				95C560BC2541347E00E42975 /* Tools */,
 				95C560B625412E8300E42975 /* BannerView.swift */,
 				954675882549362000E7826F /* UserInfoStackView.xib */,
@@ -177,21 +231,19 @@
 			path = Tools;
 			sourceTree = "<group>";
 		};
-		95D35EAB25526DCA0090CBCA /* Live */ = {
+		95D35EAB25526DCA0090CBCA /* LivePresentation */ = {
 			isa = PBXGroup;
 			children = (
+				950FDF8825554D5900FA9C4D /* Reward */,
+				950FDF792554E04D00FA9C4D /* Shop */,
+				950FDF772554DFC100FA9C4D /* Recharge */,
+				950FDF752554DF8500FA9C4D /* User */,
+				950FDF722554DF5C00FA9C4D /* Online */,
 				955951962552935200AB1C7E /* LivePresentationController.swift */,
-				950FDF562553D12800FA9C4D /* LivePresentationUserView.swift */,
-				950FDF592553D1BF00FA9C4D /* LivePresentationRechargeView.swift */,
-				950FDF5D2553EC5C00FA9C4D /* LivePresentationRechargeCell.swift */,
-				950FDF5E2553EC5C00FA9C4D /* LivePresentationRechargeCell.xib */,
-				950FDF66255419A200FA9C4D /* LivePresentationOnlineView.swift */,
 				9559519A2552B17800AB1C7E /* Spacer.swift */,
 				950FDF532553D10700FA9C4D /* HorizontalTextButton.swift */,
-				950FDF6A25541DB800FA9C4D /* LivePresentationOnlineCell.swift */,
-				950FDF6B25541DB800FA9C4D /* LivePresentationOnlineCell.xib */,
 			);
-			path = Live;
+			path = LivePresentation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +311,7 @@
 				954675892549362400E7826F /* UserInfoStackView.xib in Resources */,
 				95C5609D25412DD100E42975 /* Assets.xcassets in Resources */,
 				95D35E99255150B00090CBCA /* PostingListCell.xib in Resources */,
+				950FDF862555490000FA9C4D /* LivePresentationShopCell.xib in Resources */,
 				950FDF602553EC5C00FA9C4D /* LivePresentationRechargeCell.xib in Resources */,
 				95C5612F2541819400E42975 /* HomeSteerPeopleCell.xib in Resources */,
 				954675572546957800E7826F /* View.xib in Resources */,
@@ -322,6 +375,7 @@
 				95C5609825412DCF00E42975 /* ViewController.swift in Sources */,
 				95C560B425412E6900E42975 /* ViewChainable.swift in Sources */,
 				95C560AD25412E0100E42975 /* ContentView.swift in Sources */,
+				950FDF852555490000FA9C4D /* LivePresentationShopCell.swift in Sources */,
 				950FDF5A2553D1BF00FA9C4D /* LivePresentationRechargeView.swift in Sources */,
 				950FDF67255419A200FA9C4D /* LivePresentationOnlineView.swift in Sources */,
 				9559519B2552B17800AB1C7E /* Spacer.swift in Sources */,
@@ -332,7 +386,9 @@
 				955951972552935200AB1C7E /* LivePresentationController.swift in Sources */,
 				95C560B725412E8300E42975 /* BannerView.swift in Sources */,
 				95C5609425412DCF00E42975 /* AppDelegate.swift in Sources */,
+				950FDF8A25554D6C00FA9C4D /* LivePresentationRewardView.swift in Sources */,
 				9546758C2549427400E7826F /* UserInfoStackView.swift in Sources */,
+				950FDF7B2554E06100FA9C4D /* LivePresentationShopView.swift in Sources */,
 				95C560AE25412E0100E42975 /* UIDebugging.swift in Sources */,
 				95D35EA8255269510090CBCA /* SubViewController.swift in Sources */,
 				95D35E98255150B00090CBCA /* PostingListCell.swift in Sources */,

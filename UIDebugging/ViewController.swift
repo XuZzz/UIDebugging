@@ -16,7 +16,7 @@ class ViewController: UIViewController {
 
     @IBAction func LivePersentation(_ sender: UIButton) {
         let vc = LivePresentationController()
-        vc.style = .online
+        vc.style = .reward
         vc.modalPresentationStyle = .overCurrentContext
         self.present(vc, animated: true, completion: nil)
     }

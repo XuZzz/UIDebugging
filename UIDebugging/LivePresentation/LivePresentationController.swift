@@ -25,6 +25,8 @@
         var userHeight: CGFloat = 245.0
         var rechargeHeight: CGFloat = 265.0
         var onlineHeight: CGFloat = 312/667 * SCREEN_HEIGHT
+        var shopHeight: CGFloat = 290/667 * SCREEN_HEIGHT
+        var rewardHeight: CGFloat = 290/667 * SCREEN_HEIGHT
         init() {}
      }
     
@@ -36,13 +38,12 @@
      deinit {
          print("弹窗销毁")
      }
+    
      
      override func viewDidLoad() {
          super.viewDidLoad()
          view.backgroundColor = .setColor(hex: "#333333",
                                           alpha: 0.65)
-         
-        
          
          if style == .user {
              alertView = layoutAlertView(
@@ -59,6 +60,20 @@
         if style == .online {
             alertView = layoutAlertView(
                 alert: LivePresentationOnlineView(height: config.onlineHeight)
+            )
+        }
+        
+        if style == .shop {
+            alertView = layoutAlertView(
+                alert:
+                    LivePresentationShopView(height: config.shopHeight)
+            )
+        }
+        
+        if style == .reward {
+            alertView = layoutAlertView(
+                alert:
+                    LivePresentationRewardView(height: config.shopHeight)
             )
         }
          
@@ -87,6 +102,13 @@
                 
                 if self!.style == .online {
                     make.height.equalTo(self!.config.onlineHeight)
+                }
+                
+                if self!.style == .shop {
+                    make.height.equalTo(self!.config.shopHeight)
+                }
+                if self!.style == .reward {
+                    make.height.equalTo(self!.config.rewardHeight)
                 }
                  
              }.base

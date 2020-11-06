@@ -9,7 +9,7 @@ import Foundation
 
 class LivePresentationRechargeView: UIView, UITextViewDelegate {
     
-    public var isFirstRecharge: Bool = false
+    public var isFirstRecharge: Bool = true
 
     private var titleLabel = UITextView()
     private var balance = UILabel()
@@ -291,6 +291,7 @@ extension LivePresentationRechargeView: UICollectionViewDelegate, UICollectionVi
                                                       for: indexPath) as! LivePresentationRechargeCell
         if let contents = contents, let content = contents[safe: indexPath.item] {
             cell.itemSelected = content.isSelected
+            cell.isFirst = isFirstRecharge
             cell.buildUI(live: content.live, coin: content.coin)
         }
         return cell
