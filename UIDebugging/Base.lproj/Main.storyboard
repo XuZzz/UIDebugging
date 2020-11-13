@@ -40,14 +40,29 @@
                                     <action selector="LivePersentation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NyB-CO-sbl"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hGx-4e-82v">
+                                <rect key="frame" x="10" y="221" width="74" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="74" id="Yg2-Lg-afo"/>
+                                    <constraint firstAttribute="height" constant="44" id="zw3-uk-1fN"/>
+                                </constraints>
+                                <state key="normal" title="直播列表">
+                                    <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="liveListAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fc6-dz-Jcg"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="gaD-GI-Bwh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="4hD-kY-fSY"/>
                             <constraint firstItem="4Ly-Ug-rz7" firstAttribute="leading" secondItem="gaD-GI-Bwh" secondAttribute="leading" id="Izs-6T-NfS"/>
+                            <constraint firstItem="hGx-4e-82v" firstAttribute="top" secondItem="4Ly-Ug-rz7" secondAttribute="bottom" constant="15" id="OFZ-In-3Ez"/>
                             <constraint firstItem="gaD-GI-Bwh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="Ugg-0d-s0e"/>
                             <constraint firstItem="4Ly-Ug-rz7" firstAttribute="top" secondItem="gaD-GI-Bwh" secondAttribute="bottom" constant="10" id="cMV-H2-XuT"/>
+                            <constraint firstItem="hGx-4e-82v" firstAttribute="leading" secondItem="4Ly-Ug-rz7" secondAttribute="leading" id="mmM-4M-aLX"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="JP1-9y-nLu"/>

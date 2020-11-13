@@ -25,6 +25,21 @@
 		9546758C2549427400E7826F /* UserInfoStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9546758B2549427400E7826F /* UserInfoStackView.swift */; };
 		955951972552935200AB1C7E /* LivePresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955951962552935200AB1C7E /* LivePresentationController.swift */; };
 		9559519B2552B17800AB1C7E /* Spacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9559519A2552B17800AB1C7E /* Spacer.swift */; };
+		956FB9FE255BD74600EAAE85 /* LiveListAllLivingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956FB9FC255BD74600EAAE85 /* LiveListAllLivingCell.swift */; };
+		956FB9FF255BD74600EAAE85 /* LiveListAllLivingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 956FB9FD255BD74600EAAE85 /* LiveListAllLivingCell.xib */; };
+		956FBA03255BD96900EAAE85 /* LiveListAllLivingMainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956FBA01255BD96900EAAE85 /* LiveListAllLivingMainCell.swift */; };
+		956FBA04255BD96900EAAE85 /* LiveListAllLivingMainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 956FBA02255BD96900EAAE85 /* LiveListAllLivingMainCell.xib */; };
+		956FBA27255BEA4A00EAAE85 /* LiveColumnDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956FBA26255BEA4A00EAAE85 /* LiveColumnDetailController.swift */; };
+		95B0693B2559173A00CA73E7 /* LivePresentationRewardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B069392559173A00CA73E7 /* LivePresentationRewardCell.swift */; };
+		95B0693C2559173A00CA73E7 /* LivePresentationRewardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95B0693A2559173A00CA73E7 /* LivePresentationRewardCell.xib */; };
+		95B0694425592CB600CA73E7 /* LiveListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B0694325592CB600CA73E7 /* LiveListController.swift */; };
+		95B0694925592DBB00CA73E7 /* LiveListBannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B0694725592DBB00CA73E7 /* LiveListBannerCell.swift */; };
+		95B0694A25592DBB00CA73E7 /* LiveListBannerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95B0694825592DBB00CA73E7 /* LiveListBannerCell.xib */; };
+		95B0694E25592E0400CA73E7 /* LiveListLivingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B0694C25592E0400CA73E7 /* LiveListLivingCell.swift */; };
+		95B0694F25592E0400CA73E7 /* LiveListLivingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95B0694D25592E0400CA73E7 /* LiveListLivingCell.xib */; };
+		95B06952255934FB00CA73E7 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B06951255934FB00CA73E7 /* Const.swift */; };
+		95B069562559370E00CA73E7 /* LiveListColumnCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B069542559370E00CA73E7 /* LiveListColumnCell.swift */; };
+		95B069572559370E00CA73E7 /* LiveListColumnCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95B069552559370E00CA73E7 /* LiveListColumnCell.xib */; };
 		95C5609425412DCF00E42975 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C5609325412DCF00E42975 /* AppDelegate.swift */; };
 		95C5609625412DCF00E42975 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C5609525412DCF00E42975 /* SceneDelegate.swift */; };
 		95C5609825412DCF00E42975 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C5609725412DCF00E42975 /* ViewController.swift */; };
@@ -40,6 +55,8 @@
 		95C560C1254135D600E42975 /* UIColor+ChangeColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C560C0254135D600E42975 /* UIColor+ChangeColor.m */; };
 		95C5612E2541819400E42975 /* HomeSteerPeopleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C5612C2541819400E42975 /* HomeSteerPeopleCell.swift */; };
 		95C5612F2541819400E42975 /* HomeSteerPeopleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95C5612D2541819400E42975 /* HomeSteerPeopleCell.xib */; };
+		95CDD90D255CD7AE0078AE70 /* RewardPopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CDD90C255CD7AE0078AE70 /* RewardPopView.swift */; };
+		95CDD910255D14A40078AE70 /* LiveRewardStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CDD90F255D14A40078AE70 /* LiveRewardStackView.swift */; };
 		95D35E98255150B00090CBCA /* PostingListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D35E96255150B00090CBCA /* PostingListCell.swift */; };
 		95D35E99255150B00090CBCA /* PostingListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95D35E97255150B00090CBCA /* PostingListCell.xib */; };
 		95D35EA8255269510090CBCA /* SubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D35EA7255269510090CBCA /* SubViewController.swift */; };
@@ -65,6 +82,21 @@
 		9546758B2549427400E7826F /* UserInfoStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoStackView.swift; sourceTree = "<group>"; };
 		955951962552935200AB1C7E /* LivePresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivePresentationController.swift; sourceTree = "<group>"; };
 		9559519A2552B17800AB1C7E /* Spacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacer.swift; sourceTree = "<group>"; };
+		956FB9FC255BD74600EAAE85 /* LiveListAllLivingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveListAllLivingCell.swift; sourceTree = "<group>"; };
+		956FB9FD255BD74600EAAE85 /* LiveListAllLivingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LiveListAllLivingCell.xib; sourceTree = "<group>"; };
+		956FBA01255BD96900EAAE85 /* LiveListAllLivingMainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveListAllLivingMainCell.swift; sourceTree = "<group>"; };
+		956FBA02255BD96900EAAE85 /* LiveListAllLivingMainCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LiveListAllLivingMainCell.xib; sourceTree = "<group>"; };
+		956FBA26255BEA4A00EAAE85 /* LiveColumnDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveColumnDetailController.swift; sourceTree = "<group>"; };
+		95B069392559173A00CA73E7 /* LivePresentationRewardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivePresentationRewardCell.swift; sourceTree = "<group>"; };
+		95B0693A2559173A00CA73E7 /* LivePresentationRewardCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LivePresentationRewardCell.xib; sourceTree = "<group>"; };
+		95B0694325592CB600CA73E7 /* LiveListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveListController.swift; sourceTree = "<group>"; };
+		95B0694725592DBB00CA73E7 /* LiveListBannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveListBannerCell.swift; sourceTree = "<group>"; };
+		95B0694825592DBB00CA73E7 /* LiveListBannerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LiveListBannerCell.xib; sourceTree = "<group>"; };
+		95B0694C25592E0400CA73E7 /* LiveListLivingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveListLivingCell.swift; sourceTree = "<group>"; };
+		95B0694D25592E0400CA73E7 /* LiveListLivingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LiveListLivingCell.xib; sourceTree = "<group>"; };
+		95B06951255934FB00CA73E7 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		95B069542559370E00CA73E7 /* LiveListColumnCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveListColumnCell.swift; sourceTree = "<group>"; };
+		95B069552559370E00CA73E7 /* LiveListColumnCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LiveListColumnCell.xib; sourceTree = "<group>"; };
 		95C5609025412DCF00E42975 /* UIDebugging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIDebugging.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95C5609325412DCF00E42975 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95C5609525412DCF00E42975 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +116,8 @@
 		95C560C0254135D600E42975 /* UIColor+ChangeColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ChangeColor.m"; sourceTree = "<group>"; };
 		95C5612C2541819400E42975 /* HomeSteerPeopleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSteerPeopleCell.swift; sourceTree = "<group>"; };
 		95C5612D2541819400E42975 /* HomeSteerPeopleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeSteerPeopleCell.xib; sourceTree = "<group>"; };
+		95CDD90C255CD7AE0078AE70 /* RewardPopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardPopView.swift; sourceTree = "<group>"; };
+		95CDD90F255D14A40078AE70 /* LiveRewardStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveRewardStackView.swift; sourceTree = "<group>"; };
 		95D35E96255150B00090CBCA /* PostingListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostingListCell.swift; sourceTree = "<group>"; };
 		95D35E97255150B00090CBCA /* PostingListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostingListCell.xib; sourceTree = "<group>"; };
 		95D35EA7255269510090CBCA /* SubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubViewController.swift; sourceTree = "<group>"; };
@@ -161,8 +195,34 @@
 			isa = PBXGroup;
 			children = (
 				950FDF8925554D6C00FA9C4D /* LivePresentationRewardView.swift */,
+				95B069392559173A00CA73E7 /* LivePresentationRewardCell.swift */,
+				95B0693A2559173A00CA73E7 /* LivePresentationRewardCell.xib */,
 			);
 			path = Reward;
+			sourceTree = "<group>";
+		};
+		956FB9F8255BD66400EAAE85 /* AllLive */ = {
+			isa = PBXGroup;
+			children = (
+				956FBA01255BD96900EAAE85 /* LiveListAllLivingMainCell.swift */,
+				956FBA02255BD96900EAAE85 /* LiveListAllLivingMainCell.xib */,
+				956FB9FC255BD74600EAAE85 /* LiveListAllLivingCell.swift */,
+				956FB9FD255BD74600EAAE85 /* LiveListAllLivingCell.xib */,
+			);
+			path = AllLive;
+			sourceTree = "<group>";
+		};
+		95B0693E25592C3800CA73E7 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				95B0694725592DBB00CA73E7 /* LiveListBannerCell.swift */,
+				95B0694825592DBB00CA73E7 /* LiveListBannerCell.xib */,
+				95B0694C25592E0400CA73E7 /* LiveListLivingCell.swift */,
+				95B0694D25592E0400CA73E7 /* LiveListLivingCell.xib */,
+				95B069542559370E00CA73E7 /* LiveListColumnCell.swift */,
+				95B069552559370E00CA73E7 /* LiveListColumnCell.xib */,
+			);
+			path = List;
 			sourceTree = "<group>";
 		};
 		95C5608725412DCF00E42975 = {
@@ -227,21 +287,36 @@
 				95C560BE254135D500E42975 /* UIDebugging-Bridging-Header.h */,
 				95D35E96255150B00090CBCA /* PostingListCell.swift */,
 				95D35E97255150B00090CBCA /* PostingListCell.xib */,
+				95B06951255934FB00CA73E7 /* Const.swift */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		95CDD90B255CD78C0078AE70 /* RewardPoP */ = {
+			isa = PBXGroup;
+			children = (
+				95CDD90C255CD7AE0078AE70 /* RewardPopView.swift */,
+				95CDD90F255D14A40078AE70 /* LiveRewardStackView.swift */,
+			);
+			path = RewardPoP;
 			sourceTree = "<group>";
 		};
 		95D35EAB25526DCA0090CBCA /* LivePresentation */ = {
 			isa = PBXGroup;
 			children = (
+				95CDD90B255CD78C0078AE70 /* RewardPoP */,
+				956FB9F8255BD66400EAAE85 /* AllLive */,
+				95B0693E25592C3800CA73E7 /* List */,
 				950FDF8825554D5900FA9C4D /* Reward */,
 				950FDF792554E04D00FA9C4D /* Shop */,
 				950FDF772554DFC100FA9C4D /* Recharge */,
 				950FDF752554DF8500FA9C4D /* User */,
 				950FDF722554DF5C00FA9C4D /* Online */,
 				955951962552935200AB1C7E /* LivePresentationController.swift */,
+				95B0694325592CB600CA73E7 /* LiveListController.swift */,
 				9559519A2552B17800AB1C7E /* Spacer.swift */,
 				950FDF532553D10700FA9C4D /* HorizontalTextButton.swift */,
+				956FBA26255BEA4A00EAAE85 /* LiveColumnDetailController.swift */,
 			);
 			path = LivePresentation;
 			sourceTree = "<group>";
@@ -307,15 +382,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				95C560A025412DD100E42975 /* LaunchScreen.storyboard in Resources */,
+				956FBA04255BD96900EAAE85 /* LiveListAllLivingMainCell.xib in Resources */,
 				950FDF6D25541DB800FA9C4D /* LivePresentationOnlineCell.xib in Resources */,
 				954675892549362400E7826F /* UserInfoStackView.xib in Resources */,
+				95B0693C2559173A00CA73E7 /* LivePresentationRewardCell.xib in Resources */,
 				95C5609D25412DD100E42975 /* Assets.xcassets in Resources */,
+				95B069572559370E00CA73E7 /* LiveListColumnCell.xib in Resources */,
+				95B0694A25592DBB00CA73E7 /* LiveListBannerCell.xib in Resources */,
 				95D35E99255150B00090CBCA /* PostingListCell.xib in Resources */,
 				950FDF862555490000FA9C4D /* LivePresentationShopCell.xib in Resources */,
+				956FB9FF255BD74600EAAE85 /* LiveListAllLivingCell.xib in Resources */,
 				950FDF602553EC5C00FA9C4D /* LivePresentationRechargeCell.xib in Resources */,
 				95C5612F2541819400E42975 /* HomeSteerPeopleCell.xib in Resources */,
 				954675572546957800E7826F /* View.xib in Resources */,
 				95C5609B25412DCF00E42975 /* Main.storyboard in Resources */,
+				95B0694F25592E0400CA73E7 /* LiveListLivingCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,6 +449,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95B0693B2559173A00CA73E7 /* LivePresentationRewardCell.swift in Sources */,
 				95C560BA2541347B00E42975 /* UIKitExtension.swift in Sources */,
 				950FDF572553D12800FA9C4D /* LivePresentationUserView.swift in Sources */,
 				950FDF5F2553EC5C00FA9C4D /* LivePresentationRechargeCell.swift in Sources */,
@@ -377,22 +459,32 @@
 				95C560AD25412E0100E42975 /* ContentView.swift in Sources */,
 				950FDF852555490000FA9C4D /* LivePresentationShopCell.swift in Sources */,
 				950FDF5A2553D1BF00FA9C4D /* LivePresentationRechargeView.swift in Sources */,
+				95CDD910255D14A40078AE70 /* LiveRewardStackView.swift in Sources */,
 				950FDF67255419A200FA9C4D /* LivePresentationOnlineView.swift in Sources */,
 				9559519B2552B17800AB1C7E /* Spacer.swift in Sources */,
 				950FDF6C25541DB800FA9C4D /* LivePresentationOnlineCell.swift in Sources */,
+				95CDD90D255CD7AE0078AE70 /* RewardPopView.swift in Sources */,
 				950FDF542553D10700FA9C4D /* HorizontalTextButton.swift in Sources */,
+				956FBA27255BEA4A00EAAE85 /* LiveColumnDetailController.swift in Sources */,
+				95B0694E25592E0400CA73E7 /* LiveListLivingCell.swift in Sources */,
 				95C5612E2541819400E42975 /* HomeSteerPeopleCell.swift in Sources */,
+				95B069562559370E00CA73E7 /* LiveListColumnCell.swift in Sources */,
 				95C560AC25412E0100E42975 /* CustomUIView.swift in Sources */,
 				955951972552935200AB1C7E /* LivePresentationController.swift in Sources */,
+				956FBA03255BD96900EAAE85 /* LiveListAllLivingMainCell.swift in Sources */,
 				95C560B725412E8300E42975 /* BannerView.swift in Sources */,
 				95C5609425412DCF00E42975 /* AppDelegate.swift in Sources */,
 				950FDF8A25554D6C00FA9C4D /* LivePresentationRewardView.swift in Sources */,
+				956FB9FE255BD74600EAAE85 /* LiveListAllLivingCell.swift in Sources */,
 				9546758C2549427400E7826F /* UserInfoStackView.swift in Sources */,
 				950FDF7B2554E06100FA9C4D /* LivePresentationShopView.swift in Sources */,
+				95B0694425592CB600CA73E7 /* LiveListController.swift in Sources */,
 				95C560AE25412E0100E42975 /* UIDebugging.swift in Sources */,
 				95D35EA8255269510090CBCA /* SubViewController.swift in Sources */,
+				95B0694925592DBB00CA73E7 /* LiveListBannerCell.swift in Sources */,
 				95D35E98255150B00090CBCA /* PostingListCell.swift in Sources */,
 				95C5609625412DCF00E42975 /* SceneDelegate.swift in Sources */,
+				95B06952255934FB00CA73E7 /* Const.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

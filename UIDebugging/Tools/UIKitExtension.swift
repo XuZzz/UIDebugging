@@ -151,7 +151,9 @@ extension UIButton {
         gradientLayer1.cornerRadius = cornerRadius
         
         self.layer.addSublayer(gradientLayer1)
+        
     }
+    
 }
 // MARK: UITableView
 extension UITableView {
@@ -252,6 +254,7 @@ extension UIImage {
         }
         return nil
     }
+    
 }
 
 extension Date {
@@ -481,6 +484,18 @@ extension UIColor {
     
     static func setColor(hex: String, alpha: @autoclosure() -> CGFloat)-> UIColor {
         return UIColor(hexString: hex).withAlphaComponent(alpha())
+    }
+    
+    func createImage(bounds: CGRect)-> UIImage? {
+        var image = UIImage()
+        UIGraphicsBeginImageContext(bounds.size)
+        if let context = UIGraphicsGetCurrentContext() {
+            context.setFillColor(self.cgColor)
+            context.fill(bounds)
+            image = UIGraphicsGetImageFromCurrentImageContext() ?? UIImage()
+            UIGraphicsEndImageContext()
+        }
+        return image
     }
 }
 

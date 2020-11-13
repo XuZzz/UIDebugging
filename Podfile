@@ -8,4 +8,6 @@ target 'UIDebugging' do
   # Pods for UIDebugging
 
 pod 'SnapKit'
+# Debug UI调试
+pod 'LookinServer', :configurations => ['Debug']
 end

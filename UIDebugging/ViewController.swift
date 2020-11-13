@@ -16,9 +16,13 @@ class ViewController: UIViewController {
 
     @IBAction func LivePersentation(_ sender: UIButton) {
         let vc = LivePresentationController()
-        vc.style = .reward
+        vc.style = .shop
         vc.modalPresentationStyle = .overCurrentContext
-        self.present(vc, animated: true, completion: nil)
+        self.present(vc, animated: false, completion: nil)
+    }
+    @IBAction func liveListAction(_ sender: UIButton) {
+        let vc = LiveListController()
+        navigationController?.pushViewController(vc, animated: true)
     }
     
 }
